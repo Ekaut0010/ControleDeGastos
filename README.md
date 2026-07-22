@@ -1,3 +1,5 @@
+
+```markdown
 # 🏦 Controle de Gastos Residenciais
 
 Sistema web para gerenciamento e controle de finanças residenciais. A aplicação permite o cadastramento de pessoas, lançamento de movimentações financeiras (receitas e despesas) e visualização de saldos consolidados por indivíduo e no total geral.
@@ -46,3 +48,41 @@ cd ControleGastos.API
 
 # Restaure as dependências e rode o projeto
 dotnet run
+
+```
+
+---
+
+### **2. Executando a Aplicação Web (React)**
+
+```bash
+# Entre na pasta do Front-end
+cd ControleGastos.Web
+
+# Instale as dependências
+npm install
+
+# Execute o servidor de desenvolvimento
+npm run dev
+
+```
+
+> A aplicação estará acessível no endereço fornecido pelo Vite (geralmente `http://localhost:5173`).
+
+---
+
+## 📁 Estrutura do Front-end
+
+```text
+src/
+├── pages/          # Páginas (Pessoas, Transações, Totais)
+├── services/       # Configuração e integração com a API (Axios)
+├── types/          # Interfaces e definições de tipos TypeScript
+├── App.tsx         # Navegação por abas e estrutura base
+└── index.css       # Estilização global e tema corporativo
+
+```
+
+```
+
+```
