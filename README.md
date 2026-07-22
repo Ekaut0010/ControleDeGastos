@@ -72,7 +72,7 @@ npm run dev
 
 ## 📁 Estrutura do Front-end
 
-text
+```text
 src/
 ├── pages/          # Páginas (Pessoas, Transações, Totais)
 ├── services/       # Configuração e integração com a API (Axios)
