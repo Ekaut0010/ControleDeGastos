@@ -1,5 +1,4 @@
-
-```markdown
+markdown
 # 🏦 Controle de Gastos Residenciais
 
 Sistema web para gerenciamento e controle de finanças residenciais. A aplicação permite o cadastramento de pessoas, lançamento de movimentações financeiras (receitas e despesas) e visualização de saldos consolidados por indivíduo e no total geral.
@@ -73,7 +72,7 @@ npm run dev
 
 ## 📁 Estrutura do Front-end
 
-```text
+text
 src/
 ├── pages/          # Páginas (Pessoas, Transações, Totais)
 ├── services/       # Configuração e integração com a API (Axios)
